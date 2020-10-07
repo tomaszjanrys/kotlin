@@ -29,6 +29,7 @@ fun main(){
     zam.living();
     val car = Cars("BMW","Black",2012)
     car.carPrint();
+    //fun z nowego pliku two.kt
 
 
 }
