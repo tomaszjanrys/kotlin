@@ -1,4 +1,7 @@
+
+
 fun main(){
+
     var a: Int = 10;
     var b = 20;
     //val stala
@@ -24,4 +27,8 @@ fun main(){
     student.printstu();
     val zam = Zamieszkanie("Polska", "Tychy");
     zam.living();
+    val car = Cars("BMW","Black",2012)
+    car.carPrint();
+
+
 }

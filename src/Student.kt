@@ -10,4 +10,5 @@ class Student {
         println("Imie :${name} " +
                 " Nazwisko ${surname}")
     }
+
 }
