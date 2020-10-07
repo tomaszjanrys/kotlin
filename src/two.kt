@@ -20,10 +20,11 @@ fun main(args: Array<String>) {
     println("Roznica 1 ${x} - ${y} = ${sub}")
     println("Roznica 2 ${z} - ${y} = ${sub2}")
     println(newF)
-var tab = mutableListOf<Number>(1,2,3,4,45);
-    tab.add(5,22)
-    println(tab)
-
+    var tab = mutableListOf<Number>(1,2,3,4,45);
+    println("Tablica 1" + tab)
+    //tablica typ double
+    var tab2 = mutableListOf<Double>(1.0,2.0,3.0,4.0,5.0,6.0)
+    println(" Tablica 2 z map "+tab2.map { 2+ it /2  })
 
 
 }
