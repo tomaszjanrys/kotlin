@@ -12,4 +12,15 @@ fun main(){
     }
     println("${uczniowie}")
     println(Uczen.id)
+
+    /////////////////////////null///////////////////////
+    // var x = 5.0;
+    // x = 1.5;
+    ///x = null;
+    ////Aby przypisac  null/////////
+    var x: Double ? = 5.0;
+    x = null;
+    ////////////////////////////////////
+    val class32  = Classroom(22);
+    println(class32)
 }
