@@ -7,6 +7,6 @@ class Zamieszkanie {
     }
     fun living(){
         println("Kraj ${kraj}");
-        println("Miasto ${miasto}")
+        println("Miasto ${miasto} ")
     }
 }

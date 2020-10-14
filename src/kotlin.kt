@@ -30,6 +30,7 @@ fun main(){
     val car = Cars("BMW","Black",2012)
     car.carPrint();
     //fun z nowego pliku two.kt
-
+    val mieszkanie = Dom("salon", 22)
+    mieszkanie.spis()
 
 }
