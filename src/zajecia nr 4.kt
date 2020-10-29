@@ -37,10 +37,22 @@ fun main(){
 
     //druga fun
     math2(2,2){a,b->a*a+b*b}
+
+    //klasa student zajecia 4
+    Studentzajecia4("Ignacy", "Kaczynski").printStudent()
+    val stud = Studentzajecia4("iker","nowakowski")
+    stud.printStudent()
+    println(stud)
+    var studNull : Studentzajecia4? = null
+    println(studNull)
+    studNull = Studentzajecia4("Adolf", "Graboeski")
+    println(studNull)
 }
+
 //funkcja przyjmuje 2 patametry druga to funkcja ktora zwraca Itn
-fun math(a:Int,fun1:(Int)->Int){
-println("wynikiem dzialania jest ${fun1(a)}")
+fun math(a: Int, fun1: (Int) -> Int) {
+
+    println("wynikiem dzialania jest ${fun1(a)}")
 }
 //dwu elementowa
 fun math2(a: Int, b:Int, fun2:(Int, Int)->Int){
