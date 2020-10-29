@@ -47,6 +47,8 @@ fun main(){
     println(studNull)
     studNull = Studentzajecia4("Adolf", "Graboeski")
     println(studNull)
+    Studentzajecia4.createStu(5 , "tom", "r"){"${it*it}"}
+    println()
 }
 
 //funkcja przyjmuje 2 patametry druga to funkcja ktora zwraca Itn
